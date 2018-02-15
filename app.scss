@@ -1,0 +1,99 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+h1, h2, h3, p {
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
+}
+.button a {
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
+}
+strong{
+	font-weight: bold;
+}
+spacer{
+	width: 5px;
+}
+.headerImage{
+	width: 100%;
+	max-width: 580px;
+}
+.cardAdjust{
+	width: 300px;
+	max-width: 300px;
+}
+.nameAdjust{
+	font-size: 22px;
+}
+.colorAdjust{
+	color: #01458C;
+}
+.fontAdjust{
+	font-size: 17px;
+}
+.fontAdjust2{
+	font-size: 16px;
+}
+.bigP{
+	font-size: 19px;
+}
+.ditechResize{
+	height: 40px; //May cause issues in outlook
+	width:120px;	
+}
+.contact{
+	font-size: 12px;
+}
+.footerText{
+	font-size:12px;
+}
+.footerBackground{
+	background-color: #D8D8D8;
+}
+.cta{
+	text-decoration: underline;
+	color: #1B83B9;
+	font-weight: bold;
+}
+.or{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.socialIcon{
+	width:50px;
+	max-width: 50px;
+}
+h1{
+	font-size: 18px;
+}
+// @media screen and (max-width: 598px) {
+// .resizeCard{
+// 	height: auto !important;
+// 	width: 400px !important;
+// }
+// }
+// @media screen and (max-width: 438px) {
+// .resizeCard{
+// 	height: auto !important;
+// 	width: 300px !important;
+// }
+// }
+.resizeForDesktop{
+	height:60px; //May cause issues in outlook
+	width:60px;	
+}
+@media screen and (max-width: 480px) {
+  .resizeForMobile {
+  		height: auto !important;
+  		width:40px !important;
+    }
+  .mobileVisa{
+  	width: 200px !important;
+  }
+}
